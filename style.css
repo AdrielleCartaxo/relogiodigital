@@ -1,0 +1,52 @@
+/* Para colocar fonte: copie a fonte do goofle fontes e cole aqui */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{ /*Para mudar todas as configurações use (*) */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh; /* Para cobrir a altura da tela inteira */
+    background: linear-gradient(120deg, #95dac3, #0e6145); /*coloca um gradiente de duas cores */
+    display: flex ; /*alinhas os elementos no centro */
+    align-items: center; /*para centralizar */
+    justify-content: center; /*para centralizar */
+
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*dá um espaçamento entre os elementos */
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column; /* para que os elementos fiquem um embaixo do outro*/
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
